@@ -30,8 +30,5 @@ background-color: #BA55D3;
 			flex-direction: column;
 		}
 	}
-	
-
-
 }
 `
