@@ -22,7 +22,7 @@ const Page = () => {
     
     useEffect(() => {
         const getCategories = async () => {
-            const cats = await api.getCategorias();
+            const cats = await api.getCategories();
             setCategories(cats);
         }
         getCategories();
